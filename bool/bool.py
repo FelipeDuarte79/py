@@ -43,3 +43,7 @@ print(True < True)
 print(True <= True)
 print(False > False)
 print(True >= False)
+
+print(0 == 0.0)
+print(0 == 3)
+print('' == 'a')
