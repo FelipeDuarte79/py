@@ -18,6 +18,10 @@ _ valores booleano possuem apenas um valor de dua opções: verdadeiro ou falso
 - <=  (menor ou igual)
 - >   (maior que)
 - >=  (maior ou igual)
+
+#### OBSERVAÇÕES ####
+- Os valores 0 (zero inteiro), 0.0 (zero real) e '' (string vazia) são
+considerados False. Qualquer valor fora disso é considerado True
 '''
 
 # Exemplos
