@@ -39,6 +39,12 @@ necessário até o elemento repetido ser deletado completamente
 - .reverse(): lista em ordem reversa da original
 - o caractere \ permite que instruções muito compridas, sejam quebradas em tantas
 linhas quanto forem necessário
+- Python disponibiliza um módulo chamado copy que contêm duas funções:
+- lista0 = lista1: cópia de referência
+- lista0 = lista1[:]: cópia de contéudo
+cópia da referência
+- 
+listas que tivem em seu conteúdo, outras listas
 '''
 
 print()
@@ -102,3 +108,25 @@ cesta0.sort() # ordena a lista
 print(cesta0)
 excluido = cesta0.pop(3) # exclui o elemento de índice 3 e armazena seu conteúdo
 print(excluido)
+
+print()
+ 
+# EXEMPLO 5: cópia com referência
+lista0 = [0, [1, [2, [3, [4, [5, [6, [7, [8, ]]]]]]]]] 
+lista1 = lista0
+lista1.append('9')
+print(lista0)
+print(id(lista0))
+print(lista1)
+print(id(lista1))
+
+print()
+
+# EXEMPLO 6: cópia do conteúdo
+lista0 = [0, [1, [2, [3, [4, [5, [6, [7, [8, ]]]]]]]]] 
+lista1 = lista0[:]
+lista1.append('9')
+print(lista0)
+print(id(lista0))
+print(lista1)
+print(id(lista1))
