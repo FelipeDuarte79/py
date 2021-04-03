@@ -4,6 +4,11 @@
 #### TIPO LISTA ####
 - tipo de dado que pode contém diversos dados podendo ser iguais ou diferentes
 tipos de informação
+- uma lista é criada utilizando chaves []
+- ao atribuir uma lista para uma variável, você está atribuindo uma referência
+de lista à variável
+- Python utiliza referências sempre que utiliza variáveis que armazenam dados
+mutáveis
 - esta sequência é ordenada e possui um índice paraca cada elemento
 - cada elemento é separado por vírgula 
 - o índice é representado por um inteiro podendo ser positivo: 0 (primeiro), 1
