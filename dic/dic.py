@@ -15,6 +15,10 @@
 - .value(): permite obter os valores das chaves
 - .items(): permite obter o par chave-valor
 - .setdefault(): permite criar um par padrão para o dicionário
+
+#### APRESENTAÇÃO ELEGANTE
+- o modulo pprint permite acesso a função úteis tais como:
+pprint() pformat(): uma apresentação elegante dos valores de um dicionario
 '''
 
 print()
@@ -48,3 +52,8 @@ print(cars)
 cars.setdefault('McLaren','F1') # o valor padrão já foi definido e não pode ser
 # alterado
 print(cars)
+
+print()
+
+from pprint import pprint, pformat
+pprint(cars)
