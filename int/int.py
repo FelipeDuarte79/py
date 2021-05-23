@@ -2,6 +2,8 @@
 # -*- coding: utf8 -*-
 
 
+
+
 '''
 #### TIPO INTEIRO ####
 - valor numérico do tipo inteiro (int)
@@ -10,6 +12,8 @@
 - sempre use int() para ler um inteiro digitado pelo usuário, para operações
 matemáticas, convertendo de string para inteiro
 '''
+
+
 
 
 # EXEMPLOS
