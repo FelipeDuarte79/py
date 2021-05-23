@@ -18,5 +18,6 @@ inteira da fracionária
 
 
 # EXEMPLO
+
 print(3.141516)
 print(type(3.141516))
