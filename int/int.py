@@ -17,11 +17,4 @@ matemáticas, convertendo de string para inteiro
 
 
 # EXEMPLOS
-
-x = input('\tDigite um inteiro para x: ')    # A FUNÇÃO INPUT SEMPRE RETORNA UMA
-# STRING
-
-print()
-print(type(x))    # TIPO STRING
-x = int(x)        # CONVERSÃO DE STRING PARA INT
-print(type(x))    # TIPO INTEIRO
+print(3)    # TIPO INTEIRO
