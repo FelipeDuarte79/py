@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 # -*- coding: utf8 -*-
+
 
 '''
 #### TIPO INTEIRO ####
@@ -9,11 +11,13 @@
 matemáticas, convertendo de string para inteiro
 '''
 
-# Exemplo
-print()
-x = input('\tDigite um inteiro para x: ')
+
+# EXEMPLOS
+
+x = input('\tDigite um inteiro para x: ')    # A FUNÇÃO INPUT SEMPRE RETORNA UMA
+# STRING
 
 print()
-print(type(x))
-x = int(x)
-print(type(x))
+print(type(x))    # TIPO STRING
+x = int(x)        # CONVERSÃO DE STRING PARA INT
+print(type(x))    # TIPO INTEIRO
