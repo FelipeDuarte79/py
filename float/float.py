@@ -1,5 +1,8 @@
 # -*- coding: utf8 -*-
 
+
+
+
 '''
 #### TIPO REAL OU PONTO FLUTUANTE ####
 - valor numérico do tipo real (float)
@@ -11,11 +14,9 @@ matemáticas, convertendo de string para real
 inteira da fracionária
 '''
 
-# Exemplo
-print()
-x = input('\tDigite um valor real para x: ')
 
-print()
-print(type(x))
-x = float(x)
-print(type(x))
+
+
+# EXEMPLO
+print(3.141516)
+print(type(3.141516))
