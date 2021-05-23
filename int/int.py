@@ -17,4 +17,5 @@ matemáticas, convertendo de string para inteiro
 
 
 # EXEMPLOS
-print(3)    # TIPO INTEIRO
+print(3)
+print(type(3))
