@@ -2,6 +2,8 @@
 # -*- coding: utf8 -*-
 
 
+
+
 '''
 #### OPERADORES MATEMÁTICOS ####
 - exponencial: **
@@ -12,6 +14,7 @@
 - subtração: -
 - adição: +
 
+
 #### PRECEDÊNCIA DOS OPERADORES ####
 ()
 **
@@ -19,6 +22,8 @@
 + -
 da esquerda para a direita
 '''
+
+
 
 
 # EXEMPLOS
