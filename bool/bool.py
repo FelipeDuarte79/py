@@ -1,17 +1,20 @@
 # -*- coding: utf8 -*-
 
+
+
+
 '''
 #### TIPO BOOLEANO ####
-_ valores booleano possuem apenas um valor de dua opções: verdadeiro ou falso
+- valores booleano possuem apenas um valor de dua opções: verdadeiro ou falso
 - True (verdadeiro)
 - False falso)
 
-#### OPERADORES BOOLEANOS ####
+# Operadores lógicos
 - and (e)
 - or (ou)
 - not ((negação)
 
-#### OPERADORES RELACIONAIS ####
+# Operadores relacionais
 - ==  (igual)
 - !=  (diferente)
 - <   (menor que)
@@ -19,13 +22,17 @@ _ valores booleano possuem apenas um valor de dua opções: verdadeiro ou falso
 - >   (maior que)
 - >=  (maior ou igual)
 
-#### OBSERVAÇÕES ####
+# Observações
 - Os valores 0 (zero inteiro), 0.0 (zero real) e '' (string vazia) são
 considerados False. Qualquer valor fora disso é considerado True
 '''
 
-# Exemplos
 
+
+
+# EXEMPLOS
+
+# Operadores lógicos
 print(not True)
 print(not False)
 print(True and True)
@@ -35,6 +42,7 @@ print(True or True)
 print(True or False)
 print(False or False)
 
+# Operadores relacionais
 print(True == True)
 print(False == True)
 print(True != True)
@@ -44,6 +52,7 @@ print(True <= True)
 print(False > False)
 print(True >= False)
 
+# Outros tipos de dados
 print(0 == 0.0)
 print(0 == 3)
-print('' == 'a')
+int('' == 'a')
