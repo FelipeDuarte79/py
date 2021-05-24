@@ -7,7 +7,9 @@
 #### TIPO BOOLEANO ####
 - valores booleano possuem apenas um valor de dua opções: verdadeiro ou falso
 - True (verdadeiro)
-- False falso)
+- False (falso)
+- Valores alternativos para False: None, 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+'', (), [], {}, set(), range(0) (sequencias e conjuntos vazios)
 
 # Operadores lógicos
 - and (e)
@@ -15,16 +17,19 @@
 - not ((negação)
 
 # Operadores relacionais
-- ==  (igual)
-- !=  (diferente)
-- <   (menor que)
-- <=  (menor ou igual)
-- >   (maior que)
-- >=  (maior ou igual)
+- ==     (igual)
+- !=     (diferente)
+- <      (menor que)
+- <=     (menor ou igual)
+- >      (maior que)
+- >=     (maior ou igual)
+is       (objeto idêntico)
+is not   (objeto idêntico negado)
 
-# Observações
-- Os valores 0 (zero inteiro), 0.0 (zero real) e '' (string vazia) são
-considerados False. Qualquer valor fora disso é considerado True
+# Precedência
+or
+and
+not
 '''
 
 
